@@ -1,6 +1,6 @@
 //
 //  CoffeeshopPresenter.swift
-//  Viper-Coffeshop
+//  Viper-Coffeeshop
 //
 //  Created by Anna Radoutska on 7/18/22.
 //
@@ -14,7 +14,7 @@ class CoffeeshopPresenter {
        
     var interactor: PresenterToInteractorProtocol?
        
-    var router: PresenterToRouterProtocol? = CoffeshopRouter()
+    var router: PresenterToRouterProtocol? = CoffeeshopRouter()
     
 }
 

@@ -1,6 +1,6 @@
 //
-//  CoffeeShopMainViewController.swift
-//  Viper-Coffeshop
+//  CoffeeshopMainViewController.swift
+//  Viper-Coffeeshop
 //
 //  Created by Anna Radoutska on 7/19/22.
 //
@@ -40,7 +40,7 @@ class CoffeeshopMainViewController: CoffeeshopViewController {
 }
 
 
-extension CoffeeshopMainViewController: CoffeshopMainViewDelegate {
+extension CoffeeshopMainViewController: CoffeeshopMainViewDelegate {
     func didTap() {
         presentor?.redirectToOtherView(destination: 1)
     }

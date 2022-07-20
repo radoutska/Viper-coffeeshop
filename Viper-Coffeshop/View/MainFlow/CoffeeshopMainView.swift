@@ -1,6 +1,6 @@
 //
 //  CoffeeshopMainView.swift
-//  Viper-Coffeshop
+//  Viper-Coffeeshop
 //
 //  Created by Anna Radoutska on 7/19/22.
 //
@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-protocol CoffeshopMainViewDelegate: AnyObject {
+protocol CoffeeshopMainViewDelegate: AnyObject {
 
     func didTap()
 }
@@ -16,7 +16,7 @@ protocol CoffeshopMainViewDelegate: AnyObject {
 
 final class CoffeeshopMainView: UIView {
     
-    weak var delegate: CoffeshopMainViewDelegate?
+    weak var delegate: CoffeeshopMainViewDelegate?
     
     let testButton = UIButton()
     

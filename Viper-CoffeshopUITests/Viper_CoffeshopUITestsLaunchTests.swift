@@ -1,13 +1,13 @@
 //
-//  Viper_CoffeshopUITestsLaunchTests.swift
-//  Viper-CoffeshopUITests
+//  Viper_CoffeeshopUITestsLaunchTests.swift
+//  Viper-CoffeeshopUITests
 //
 //  Created by Anna Radoutska on 7/18/22.
 //
 
 import XCTest
 
-class Viper_CoffeshopUITestsLaunchTests: XCTestCase {
+class Viper_CoffeeshopUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

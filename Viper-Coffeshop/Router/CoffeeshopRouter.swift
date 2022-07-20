@@ -1,6 +1,6 @@
 //
 //  CoffeeshopRouter.swift
-//  Viper-Coffeshop
+//  Viper-Coffeeshop
 //
 //  Created by Anna Radoutska on 7/18/22.
 //
@@ -12,20 +12,20 @@ enum RoutingDestinations {
     case mainPage
     case itemDescription(Int)
 }
-class CoffeshopRouter {
+class CoffeeshopRouter {
     
     var navigationController: UINavigationController = UINavigationController()
     
     
     func pushToScreen(destination: Int) {
         
-        let detailsModule = CoffeshopRouter.createModule(destination: RoutingDestinations.itemDescription(destination))
+        let detailsModule = CoffeeshopRouter.createModule(destination: RoutingDestinations.itemDescription(destination))
         detailsModule.view.backgroundColor = .red
         navigationController.pushViewController(detailsModule, animated: true)
     }
 }
 
-extension CoffeshopRouter: PresenterToRouterProtocol {
+extension CoffeeshopRouter: PresenterToRouterProtocol {
     
     static func createModule(destination: RoutingDestinations) -> UIViewController {
         
@@ -42,7 +42,7 @@ extension CoffeshopRouter: PresenterToRouterProtocol {
         }
 
         let interactor: PresenterToInteractorProtocol = CoffeeshopInteractor()
-        let router:PresenterToRouterProtocol = CoffeshopRouter()
+        let router:PresenterToRouterProtocol = CoffeeshopRouter()
 //
         viewController.presentor = presenter
         presenter.view = viewController

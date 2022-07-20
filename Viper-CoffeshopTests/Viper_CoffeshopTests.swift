@@ -1,14 +1,14 @@
 //
-//  Viper_CoffeshopTests.swift
-//  Viper-CoffeshopTests
+//  Viper_CoffeeshopTests.swift
+//  Viper-CoffeeshopTests
 //
 //  Created by Anna Radoutska on 7/18/22.
 //
 
 import XCTest
-@testable import Viper_Coffeshop
+@testable import Viper_Coffeeshop
 
-class Viper_CoffeshopTests: XCTestCase {
+class Viper_CoffeeshopTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Viper-Coffeshop
+//  Viper-Coffeeshop
 //
 //  Created by Anna Radoutska on 7/18/22.
 //
@@ -13,17 +13,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-//        let viewController = CoffeshopRouter.createModule(destination: RoutingDestinations.mainPage)
-        let presenter: ViewToPresenterProtocol & InteractorToPresenterProtocol = CoffeeshopPresenter()
-        let viewController = CoffeeshopMainViewController(presenter: presenter)
-        let navigationController = UINavigationController()
-        navigationController.viewControllers = [viewController]
-
-        /* Setting up the root view-controller as ui-navigation-controller */
-        self.window = UIWindow(frame: UIScreen.main.bounds)
-        self.window?.rootViewController = navigationController
-        self.window?.rootViewController?.view.backgroundColor = .green
-        self.window?.makeKeyAndVisible()
+//        let viewController = CoffeeshopRouter.createModule(destination: RoutingDestinations.mainPage)
+        
+//        let presenter: ViewToPresenterProtocol & InteractorToPresenterProtocol = CoffeeshopPresenter()
+//        let viewController = CoffeeshopMainViewController(presenter: presenter)
+//        let navigationController = UINavigationController()
+//        navigationController.viewControllers = [viewController]
+//
+//        /* Setting up the root view-controller as ui-navigation-controller */
+//        self.window = UIWindow(frame: UIScreen.main.bounds)
+//        self.window?.rootViewController = navigationController
+//        self.window?.rootViewController?.view.backgroundColor = .green
+//        self.window?.makeKeyAndVisible()
 
             return true
 

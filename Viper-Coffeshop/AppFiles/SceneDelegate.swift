@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  Viper-Coffeshop
+//  Viper-Coffeeshop
 //
 //  Created by Anna Radoutska on 7/18/22.
 //
