@@ -8,9 +8,9 @@
 import Foundation
 import UIKit
 
-class CoffeeshopPresenter {
+class CoffeeshopPresenter: InteractorToPresenterProtocol {
     
-    var view: PresenterToViewProtocol?
+    weak var view: PresenterToViewProtocol?
        
     var interactor: PresenterToInteractorProtocol?
        
@@ -20,25 +20,19 @@ class CoffeeshopPresenter {
 
 extension CoffeeshopPresenter: ViewToPresenterProtocol {
 
-
     func startFetchingMenu() {
         interactor?.fetchMenu()
     }
     
-    func showViewController() {
-        let destination: Int = 1
-        router?.pushToScreen(destination: destination)
-       }
-    
-    func redirectToOtherView(destination: Int) {
-        let destination: Int = 2
-        router?.pushToScreen(destination: destination)
+    func redirectToDetailView(item: MenuItem) {
+        print("Start Pushing")
+        router?.pushToItemDetail(on: view!, with: item)
     }
-    
 }
 
 
-extension CoffeeshopPresenter: InteractorToPresenterProtocol {
+extension CoffeeshopPresenter {
+    
     func menuFetchedSuccess(menu: Array<MenuItem>) {
         // TODO: Finish
     }

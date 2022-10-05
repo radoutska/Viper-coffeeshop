@@ -38,7 +38,6 @@ final class CoffeeshopMainView: UIView {
         
         self.addSubview(testButton)
         testButton.backgroundColor = .darkGray
-        testButton.tintColor = .blue
         testButton.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
             testButton.heightAnchor.constraint(equalToConstant: 100),

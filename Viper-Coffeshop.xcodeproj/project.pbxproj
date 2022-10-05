@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35A518CF28ED91060065D008 /* RoutingDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A518CE28ED91060065D008 /* RoutingDestination.swift */; };
+		35A518D328ED97A60065D008 /* MenuItemDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A518D228ED97A60065D008 /* MenuItemDetailRouter.swift */; };
+		35A518D528ED97E00065D008 /* MenuItemDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A518D428ED97E00065D008 /* MenuItemDetailPresenter.swift */; };
+		35A518D728ED981E0065D008 /* MenuItemDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A518D628ED981E0065D008 /* MenuItemDetailInteractor.swift */; };
+		35A518D928ED98CC0065D008 /* MenuItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A518D828ED98CC0065D008 /* MenuItemDetailViewController.swift */; };
+		35A518DB28ED99870065D008 /* MenuItemDetailContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A518DA28ED99870065D008 /* MenuItemDetailContract.swift */; };
+		35A518DF28EDC9D50065D008 /* MenuItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A518DE28EDC9D50065D008 /* MenuItemDetailView.swift */; };
 		35CC4F6D28871B0500BC5F4B /* CoffeeshopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CC4F6C28871B0500BC5F4B /* CoffeeshopViewController.swift */; };
 		35CC4F6F28871B1E00BC5F4B /* CoffeeshopMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CC4F6E28871B1E00BC5F4B /* CoffeeshopMainView.swift */; };
 		35CC4F7228871D2100BC5F4B /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CC4F7128871D2100BC5F4B /* MenuItem.swift */; };
 		35CC4F74288720FE00BC5F4B /* CoffeeshopProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CC4F73288720FE00BC5F4B /* CoffeeshopProtocols.swift */; };
 		35CC4F76288723BC00BC5F4B /* MenuFetchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CC4F75288723BC00BC5F4B /* MenuFetchService.swift */; };
-		35CC4F7A28872F4C00BC5F4B /* CoffeeshopDescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CC4F7928872F4C00BC5F4B /* CoffeeshopDescriptionViewController.swift */; };
 		35CC4F7F288743DE00BC5F4B /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CC4F7E288743DE00BC5F4B /* UIViewControllerExtension.swift */; };
 		35CE2D33288637BF002CABC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CE2D32288637BF002CABC9 /* AppDelegate.swift */; };
-		35CE2D35288637BF002CABC9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CE2D34288637BF002CABC9 /* SceneDelegate.swift */; };
 		35CE2D3C288637C3002CABC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35CE2D3B288637C3002CABC9 /* Assets.xcassets */; };
 		35CE2D3F288637C3002CABC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35CE2D3D288637C3002CABC9 /* LaunchScreen.storyboard */; };
 		35CE2D4A288637C4002CABC9 /* Viper_CoffeshopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CE2D49288637C4002CABC9 /* Viper_CoffeshopTests.swift */; };
@@ -45,16 +50,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		35A518CE28ED91060065D008 /* RoutingDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingDestination.swift; sourceTree = "<group>"; };
+		35A518D228ED97A60065D008 /* MenuItemDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemDetailRouter.swift; sourceTree = "<group>"; };
+		35A518D428ED97E00065D008 /* MenuItemDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemDetailPresenter.swift; sourceTree = "<group>"; };
+		35A518D628ED981E0065D008 /* MenuItemDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemDetailInteractor.swift; sourceTree = "<group>"; };
+		35A518D828ED98CC0065D008 /* MenuItemDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemDetailViewController.swift; sourceTree = "<group>"; };
+		35A518DA28ED99870065D008 /* MenuItemDetailContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemDetailContract.swift; sourceTree = "<group>"; };
+		35A518DE28EDC9D50065D008 /* MenuItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemDetailView.swift; sourceTree = "<group>"; };
 		35CC4F6C28871B0500BC5F4B /* CoffeeshopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeshopViewController.swift; sourceTree = "<group>"; };
 		35CC4F6E28871B1E00BC5F4B /* CoffeeshopMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeshopMainView.swift; sourceTree = "<group>"; };
 		35CC4F7128871D2100BC5F4B /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 		35CC4F73288720FE00BC5F4B /* CoffeeshopProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeshopProtocols.swift; sourceTree = "<group>"; };
 		35CC4F75288723BC00BC5F4B /* MenuFetchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuFetchService.swift; sourceTree = "<group>"; };
-		35CC4F7928872F4C00BC5F4B /* CoffeeshopDescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeshopDescriptionViewController.swift; sourceTree = "<group>"; };
 		35CC4F7E288743DE00BC5F4B /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
 		35CE2D2F288637BF002CABC9 /* Viper-Coffeshop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Viper-Coffeshop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		35CE2D32288637BF002CABC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		35CE2D34288637BF002CABC9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		35CE2D3B288637C3002CABC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35CE2D3E288637C3002CABC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35CE2D40288637C3002CABC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -94,6 +104,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35A518E028EDCF450065D008 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				35FB5ADA28877D8A00148E5A /* CoffeeShopMainViewController.swift */,
+				35CC4F6E28871B1E00BC5F4B /* CoffeeshopMainView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		35CC4F7028871B3C00BC5F4B /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
@@ -105,18 +124,25 @@
 		35CC4F7728872F1C00BC5F4B /* MainFlow */ = {
 			isa = PBXGroup;
 			children = (
-				35FB5ADA28877D8A00148E5A /* CoffeeShopMainViewController.swift */,
-				35CC4F6E28871B1E00BC5F4B /* CoffeeshopMainView.swift */,
+				35A518E028EDCF450065D008 /* View */,
+				35CE2D6828863A51002CABC9 /* Interactor */,
+				35CE2D6628863A43002CABC9 /* Presenter */,
+				35CE2D6528863A3A002CABC9 /* Router */,
 			);
 			path = MainFlow;
 			sourceTree = "<group>";
 		};
-		35CC4F7828872F2800BC5F4B /* ItemDescription */ = {
+		35CC4F7828872F2800BC5F4B /* MenuItemDetailsFlow */ = {
 			isa = PBXGroup;
 			children = (
-				35CC4F7928872F4C00BC5F4B /* CoffeeshopDescriptionViewController.swift */,
+				35A518D228ED97A60065D008 /* MenuItemDetailRouter.swift */,
+				35A518D428ED97E00065D008 /* MenuItemDetailPresenter.swift */,
+				35A518D628ED981E0065D008 /* MenuItemDetailInteractor.swift */,
+				35A518D828ED98CC0065D008 /* MenuItemDetailViewController.swift */,
+				35A518DA28ED99870065D008 /* MenuItemDetailContract.swift */,
+				35A518DE28EDC9D50065D008 /* MenuItemDetailView.swift */,
 			);
-			path = ItemDescription;
+			path = MenuItemDetailsFlow;
 			sourceTree = "<group>";
 		};
 		35CC4F7B288743A700BC5F4B /* Extensions */ = {
@@ -154,11 +180,8 @@
 				35CC4F7B288743A700BC5F4B /* Extensions */,
 				35CC4F7028871B3C00BC5F4B /* Protocols */,
 				35CE2D6928863A5D002CABC9 /* Services */,
-				35CE2D6828863A51002CABC9 /* Interactor */,
 				35CE2D6728863A4A002CABC9 /* Entity */,
-				35CE2D6628863A43002CABC9 /* Presenter */,
-				35CE2D6528863A3A002CABC9 /* Router */,
-				35CE2D6228863A0E002CABC9 /* View */,
+				35CE2D6228863A0E002CABC9 /* Flow */,
 				35CE2D3B288637C3002CABC9 /* Assets.xcassets */,
 				35CE2D40288637C3002CABC9 /* Info.plist */,
 				35CE2D6E28863A9D002CABC9 /* AppFiles */,
@@ -184,19 +207,20 @@
 			path = "Viper-CoffeshopUITests";
 			sourceTree = "<group>";
 		};
-		35CE2D6228863A0E002CABC9 /* View */ = {
+		35CE2D6228863A0E002CABC9 /* Flow */ = {
 			isa = PBXGroup;
 			children = (
-				35CC4F7828872F2800BC5F4B /* ItemDescription */,
+				35CC4F7828872F2800BC5F4B /* MenuItemDetailsFlow */,
 				35CC4F7728872F1C00BC5F4B /* MainFlow */,
 			);
-			path = View;
+			path = Flow;
 			sourceTree = "<group>";
 		};
 		35CE2D6528863A3A002CABC9 /* Router */ = {
 			isa = PBXGroup;
 			children = (
 				35CE2D6328863A35002CABC9 /* CoffeeshopRouter.swift */,
+				35A518CE28ED91060065D008 /* RoutingDestination.swift */,
 			);
 			path = Router;
 			sourceTree = "<group>";
@@ -236,7 +260,6 @@
 		35CE2D6E28863A9D002CABC9 /* AppFiles */ = {
 			isa = PBXGroup;
 			children = (
-				35CE2D34288637BF002CABC9 /* SceneDelegate.swift */,
 				35CE2D32288637BF002CABC9 /* AppDelegate.swift */,
 			);
 			path = AppFiles;
@@ -373,17 +396,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				35CE2D6428863A35002CABC9 /* CoffeeshopRouter.swift in Sources */,
+				35A518CF28ED91060065D008 /* RoutingDestination.swift in Sources */,
+				35A518DF28EDC9D50065D008 /* MenuItemDetailView.swift in Sources */,
 				35CE2D6B28863A79002CABC9 /* CoffeeshopPresenter.swift in Sources */,
 				35CE2D6D28863A8E002CABC9 /* CoffeeshopInteractor.swift in Sources */,
 				35CE2D33288637BF002CABC9 /* AppDelegate.swift in Sources */,
 				35CC4F6F28871B1E00BC5F4B /* CoffeeshopMainView.swift in Sources */,
 				35CC4F7228871D2100BC5F4B /* MenuItem.swift in Sources */,
+				35A518DB28ED99870065D008 /* MenuItemDetailContract.swift in Sources */,
 				35CC4F6D28871B0500BC5F4B /* CoffeeshopViewController.swift in Sources */,
-				35CC4F7A28872F4C00BC5F4B /* CoffeeshopDescriptionViewController.swift in Sources */,
 				35CC4F7F288743DE00BC5F4B /* UIViewControllerExtension.swift in Sources */,
-				35CE2D35288637BF002CABC9 /* SceneDelegate.swift in Sources */,
+				35A518D528ED97E00065D008 /* MenuItemDetailPresenter.swift in Sources */,
+				35A518D728ED981E0065D008 /* MenuItemDetailInteractor.swift in Sources */,
 				35FB5ADB28877D8A00148E5A /* CoffeeShopMainViewController.swift in Sources */,
+				35A518D328ED97A60065D008 /* MenuItemDetailRouter.swift in Sources */,
 				35CC4F74288720FE00BC5F4B /* CoffeeshopProtocols.swift in Sources */,
+				35A518D928ED98CC0065D008 /* MenuItemDetailViewController.swift in Sources */,
 				35CC4F76288723BC00BC5F4B /* MenuFetchService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

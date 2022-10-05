@@ -14,8 +14,7 @@ protocol ViewToPresenterProtocol: AnyObject {
     var interactor: PresenterToInteractorProtocol? {get set}
     var router: PresenterToRouterProtocol? {get set}
     func startFetchingMenu()
-    func showViewController()
-    func redirectToOtherView(destination: Int) 
+    func redirectToDetailView(item: MenuItem)
 }
 
 protocol PresenterToViewProtocol: AnyObject{
@@ -24,8 +23,8 @@ protocol PresenterToViewProtocol: AnyObject{
 }
 
 protocol PresenterToRouterProtocol: AnyObject {
-    static func createModule(destination: RoutingDestinations)-> UIViewController
-    func pushToScreen(destination: Int)
+    static func createModule()-> UINavigationController
+    func pushToItemDetail(on view: PresenterToViewProtocol, with item: MenuItem) 
 }
 
 protocol PresenterToInteractorProtocol: AnyObject {

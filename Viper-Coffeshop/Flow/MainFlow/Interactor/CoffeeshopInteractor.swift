@@ -23,7 +23,6 @@ extension CoffeeshopInteractor: PresenterToInteractorProtocol {
         return
     }
     
-    
 }
 
 // TODO: Запросы ко всем серверам
